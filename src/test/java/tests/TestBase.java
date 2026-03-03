@@ -18,6 +18,8 @@ public class TestBase {
 
         Configuration.browser = testConfig.getBrowserName();
         Configuration.browserVersion = testConfig.getBrowserVersion();
+        Configuration.browserSize = testConfig.getBrowserSize();
         Configuration.remote = testConfig.getRemoteUrl();
+
     }
 }
